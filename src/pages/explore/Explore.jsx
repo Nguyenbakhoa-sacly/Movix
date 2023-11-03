@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Select from "react-select";
-import "./Explore.scss";
+import "./explore.scss";
 import useFetch from "../../hooks/useFetch";
 import { fetchDataFromAPI } from "../../utils/api";
 import { ContentWrapper, MovieCard, Spinner } from '../../components'
